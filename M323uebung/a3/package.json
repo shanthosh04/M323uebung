@@ -4,6 +4,7 @@
   "description": "An example project for all module 323 exercises",
   "scripts": {
     "dev": "webpack serve --mode development",
+    "dev": "Befehl-zum-Starten-des-Entwicklungsservers",
     "build": "webpack --mode production"
   },
   "browserslist": "> 0.25%, not dead",
