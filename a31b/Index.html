@@ -3,37 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
     <title>Meine Webseite</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#">Startseite</a></li>
-                <li class="nav-item"><a href="#">Über uns</a></li>
-                <li class="nav-item"><a href="#">Leistungen</a></li>
-                <li class="nav-item"><a href="#">Kontakt</a></li>
+    <header class="bg-gray-900 text-white py-4 text-center">
+        <nav class="mb-4">
+            <ul class="list-none">
+                <li class="inline-block mr-6"><a href="#" class="text-white">Startseite</a></li>
+                <li class="inline-block mr-6"><a href="#" class="text-white">Über uns</a></li>
+                <li class="inline-block mr-6"><a href="#" class="text-white">Leistungen</a></li>
+                <li class="inline-block"><a href="#" class="text-white">Kontakt</a></li>
             </ul>
         </nav>
-        <h1 class="header-title">Willkommen auf unserer Webseite</h1>
+        <h1 class="text-4x1">Willkommen auf unserer Webseite</h1>
     </header>
 
-    <main class="main-content">
-        <section class="featured-section">
-            <h2 class="section-title">Unsere Leistungen</h2>
-            <p>Hallo welt.</p>
-            <img src="bild.webp" alt="Bild" class="section-image">
-        </section>
+    <main class="container mx-auto px-4 py-8">
+            <h2 class="text-2xl mb-4">Unsere Leistungen</h2>
+            <p>Hello world.</p>
+            <img src="bild.webp" alt="Bild" class="max-w-full mt-4">
 
-        <section class="about-section">
-            <h2 class="section-title">Über uns</h2>
-            <p>Wir sind ein großartiges Unternehmen</p>
-        </section>
+
+            <h2 class="text-2xl mb-4">Über uns</h2>
+            <p>Wir sind ein grossartiges Unternehmen.</p>
     </main>
 
-    <footer class="footer">
-        <p class="footer-text">&copy; 2023 Shanthosh AG. Alle Rechte vorbehalten.</p>
+    <footer class="bg-gray-900 text-white py-4 text-center">
+        <p class="text-sm">&copy; 2023 Meine Firma. Alle Rechte vorbehalten.</p>
     </footer>
 </body>
 </html>
