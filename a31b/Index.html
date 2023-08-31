@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Meine Webseite</title>
 </head>
 <body>
-    <h1>Mein Titel</h1>
-    <script src="index.js"></script>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#">Startseite</a></li>
+                <li class="nav-item"><a href="#">Über uns</a></li>
+                <li class="nav-item"><a href="#">Leistungen</a></li>
+                <li class="nav-item"><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+        <h1 class="header-title">Willkommen auf unserer Webseite</h1>
+    </header>
+
+    <main class="main-content">
+        <section class="featured-section">
+            <h2 class="section-title">Unsere Leistungen</h2>
+            <p>Hallo welt.</p>
+            <img src="bild.webp" alt="Bild" class="section-image">
+        </section>
+
+        <section class="about-section">
+            <h2 class="section-title">Über uns</h2>
+            <p>Wir sind ein großartiges Unternehmen</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text">&copy; 2023 Shanthosh AG. Alle Rechte vorbehalten.</p>
+    </footer>
 </body>
 </html>
